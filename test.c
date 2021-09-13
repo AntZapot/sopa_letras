@@ -26,4 +26,7 @@ int main(int argc, char const *argv[])
 
     printf("%d", a_as_int);
 
+    char mensaje [] = "Hola";
+    char str [] = "Hola";
+    printf("%d", strcmp(str, mensaje));
 }
